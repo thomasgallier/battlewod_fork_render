@@ -1,14 +1,15 @@
 import 'dart:io';
 
-import 'package:ffmpeg_kit_flutter_https_gpl/ffmpeg_kit_config.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/ffmpeg_session.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/log.dart';
-import 'package:ffmpeg_kit_flutter_https_gpl/statistics.dart';
+import 'package:ffmpeg_kit_flutter_min/ffmpeg_kit_config.dart';
+import 'package:ffmpeg_kit_flutter_min/ffmpeg_session.dart';
+import 'package:ffmpeg_kit_flutter_min/log.dart';
+import 'package:ffmpeg_kit_flutter_min/statistics.dart';
 import 'package:render/src/formats/abstract.dart';
 import 'package:render/src/service/notifier.dart';
 import 'package:render/src/service/session.dart';
 import 'package:render/src/service/settings.dart';
 import 'package:render/src/service/task_identifier.dart';
+
 import 'service/exception.dart';
 
 abstract class RenderProcessor<T extends RenderFormat> {

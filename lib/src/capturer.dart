@@ -2,13 +2,14 @@ import 'dart:async';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:ffmpeg_kit_flutter_https_gpl/ffmpeg_kit.dart';
+import 'package:ffmpeg_kit_flutter_min/ffmpeg_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:render/src/service/notifier.dart';
 import 'package:render/src/service/session.dart';
 import 'package:render/src/service/settings.dart';
 import 'package:render/src/service/task_identifier.dart';
+
 import 'formats/abstract.dart';
 import 'service/exception.dart';
 
